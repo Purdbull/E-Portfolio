@@ -1,0 +1,9 @@
+@import './vars';
+@import './header';
+
+
+.content {
+    @extend header;
+    background: rgb(94, 238, 94);
+    height: 100%-20%;
+}
